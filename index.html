@@ -1,0 +1,29 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Image Preview Tool</title>
+    </head>
+<body>
+    <h1>Image Preview Tool</h1>
+    <div id="imgLink">
+        <p>You can enter the image URL here:
+            <input type="text" id='imgUrl' name="imgUrl">
+            <button type="button" onclick="loadImageFromUrl()">Confirm</button>
+        </p>
+    </div>
+    <div id="dragAndDrop">
+        <form class="upload">
+            <input id='fileSelector' type="file" name="fileName" multiple accept="image/*">
+            <div id="imgPreview">
+                <p>Or you can drag and drop the image here</p>  
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Add your css styles here */
+body {
+    text-align: center;
+    font-family: "Tahoma";
+}
+
+#imgLink {
+    margin: auto;
+}
+
+button {
+    background-color: #007aff;
+    border-style: hidden;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0061cc;
+}
+
+#dragAndDrop {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    border: 3px dashed #a3a3a3;
+    border-radius: 20px 
+}
+
+#dragAndDrop.highlightBox {
+    border-color: black;
+}
+
+#imgPreview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#fileSelector {
+    display: none;
+}
